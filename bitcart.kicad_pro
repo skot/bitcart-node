@@ -617,15 +617,15 @@
     ],
     [
       "00000000-0000-0000-0000-00005cff706a",
-      "CM4_GPIO ( Ethernet, GPIO, SDCARD)"
+      "CM4_GPIO "
     ],
     [
       "00000000-0000-0000-0000-00005ed4bb5b",
       "PCIe-connector"
     ],
     [
-      "00000000-0000-0000-0000-00005d31f999",
-      "PSUs"
+      "5ffb3b4b-7652-4af4-839a-2e6de4752496",
+      "PoE"
     ]
   ],
   "text_variables": {}

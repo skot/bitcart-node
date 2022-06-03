@@ -84,10 +84,10 @@
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP255x.pdf" (id 3) (at 3.81 -6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Field4" "Digikey" (id 4) (at 0 0 0)
+    (property "Field4" "Digikey" (id 4) (at 0 8.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Field5" "AP2553W6-7DICT-ND" (id 5) (at 0 0 0)
+    (property "Field5" "AP2553W6-7DICT-ND" (id 5) (at 1.27 6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "AP2553W6_0_0"
