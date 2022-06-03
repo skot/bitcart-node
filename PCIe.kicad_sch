@@ -5,10 +5,10 @@
   (paper "A4")
 
   (title_block
-    (title "Compute Module 4 IO Board - PCIe")
+    (title "bitcart - PCIe")
+    (date "2022-06-02")
     (rev "1")
-    (company "© 2020-2022 Raspberry Pi Ltd (formerly Raspberry Pi (Trading) Ltd.)")
-    (comment 1 "www.raspberrypi.com")
+    (comment 1 "https://github.com/skot/bitcart.git")
   )
 
   (lib_symbols
@@ -509,7 +509,6 @@
       )
     )
   )
-
 
   (junction (at 157.734 152.654) (diameter 1.016) (color 0 0 0 0)
     (uuid 02103ae5-54fb-4b80-a4c2-6096261b830e)
