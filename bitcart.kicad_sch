@@ -706,14 +706,14 @@
     (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/eee63c5b-ca2e-4c74-8983-e5d2b78dc811"
       (reference "C16") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/00000000-0000-0000-0000-00005e328d89/00000000-0000-0000-0000-00005d0dcf99"
-      (reference "C23") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
     (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/5ff48aec-b304-4cb5-8a94-c2359ef9d780"
-      (reference "C?") (unit 1) (value "1nF, 2000V") (footprint "")
+      (reference "C17") (unit 1) (value "1nF, 2000V") (footprint "")
     )
     (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/e29471ff-8d0c-4a59-866e-28b3e61fe634"
-      (reference "C?") (unit 1) (value "4.7uF") (footprint "")
+      (reference "C18") (unit 1) (value "4.7uF") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005e328d89/00000000-0000-0000-0000-00005d0dcf99"
+      (reference "C23") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e286645"
       (reference "D1") (unit 1) (value "LED Red") (footprint "LED_SMD:LED_0603_1608Metric")
@@ -740,10 +740,10 @@
       (reference "D8") (unit 1) (value "DF01S") (footprint "bitcart:DF01S")
     )
     (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/897a22a3-ba56-4205-909a-1b08c3532e38"
-      (reference "D?") (unit 1) (value "9.1V") (footprint "")
+      (reference "D9") (unit 1) (value "9.1V") (footprint "")
     )
     (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/bf226ebe-71e4-4518-8d05-2af965e56a70"
-      (reference "D?") (unit 1) (value "1N4148") (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")
+      (reference "D10") (unit 1) (value "1N4148") (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005e3b2f75"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
@@ -775,11 +775,11 @@
     (path "/00000000-0000-0000-0000-00005cff70b1/00000000-0000-0000-0000-00005e471fb9"
       (reference "Module1") (unit 2) (value "ComputeModule4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
     )
-    (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/218857a1-5b8b-4552-9dd0-1cbac2901678"
-      (reference "Q1") (unit 1) (value "Si7430DP") (footprint "")
+    (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/4f6eda4a-928d-4649-a07d-f30eb5ce6f31"
+      (reference "Q1") (unit 1) (value "SI7430DP") (footprint "bitcart:SI7430DP")
     )
     (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/cc763a6e-fc99-4d9a-a749-5baefd4b1726"
-      (reference "Q?") (unit 1) (value "MMBTA06LT1G") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "Q2") (unit 1) (value "MMBTA06LT1G") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e19768b"
       (reference "R1") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -792,6 +792,9 @@
     )
     (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/cdcd3b13-1a33-4cdf-a704-03359aed200b"
       (reference "R4") (unit 1) (value "9.31k") (footprint "")
+    )
+    (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/3c0bdba5-4e99-4040-9fdb-37a0f2514dfa"
+      (reference "R5") (unit 1) (value "100k") (footprint "")
     )
     (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/9281b472-838c-46a5-af5e-28aac8f740e7"
       (reference "R6") (unit 1) (value "20k") (footprint "")
@@ -841,6 +844,9 @@
     (path "/00000000-0000-0000-0000-00005e328d89/00000000-0000-0000-0000-00005d0e61c8"
       (reference "R21") (unit 1) (value "36K 1%") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
+    (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/06103bd7-2e25-43d4-90b9-5d88a50e1a18"
+      (reference "R22") (unit 1) (value "1k") (footprint "")
+    )
     (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/1712ebcd-a8fe-4c3d-a7f9-049cf3fba623"
       (reference "R25") (unit 1) (value "191k") (footprint "")
     )
@@ -852,12 +858,6 @@
     )
     (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/74063b40-ccdf-4f57-adcd-c3d3265a79f4"
       (reference "R28") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
-    (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/06103bd7-2e25-43d4-90b9-5d88a50e1a18"
-      (reference "R?") (unit 1) (value "1k") (footprint "")
-    )
-    (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/3c0bdba5-4e99-4040-9fdb-37a0f2514dfa"
-      (reference "R?") (unit 1) (value "100k") (footprint "")
     )
     (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/de599665-7850-4c55-bc8c-a2522f3a347e"
       (reference "U1") (unit 1) (value "MP8008") (footprint "bitcart:QFN-28_EP_4x5_Pitch0.5mm")
