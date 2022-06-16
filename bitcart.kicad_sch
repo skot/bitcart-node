@@ -634,12 +634,6 @@
     (path "/00000000-0000-0000-0000-00005e328d89/00000000-0000-0000-0000-00005d0e8ad5"
       (reference "#PWR035") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005ddd76da"
-      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005ddf038e"
-      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e15bd87"
       (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
     )
@@ -742,6 +736,9 @@
     (path "/00000000-0000-0000-0000-00005e3b2f75"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
     )
+    (path "/00000000-0000-0000-0000-00005ed4bb5b/10c0123e-f737-43cb-afce-1870cad9b968"
+      (reference "H2") (unit 1) (value "M2.5 x 2.5mm SMD threaded standoff ") (footprint "bitcart:9774025151R")
+    )
     (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e411f5a"
       (reference "J1") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
@@ -750,9 +747,6 @@
     )
     (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e95ca2d"
       (reference "J3") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
-    )
-    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005dd3ddee"
-      (reference "J8") (unit 1) (value "THD-20-R") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005e072e02/00000000-0000-0000-0000-00005d3a5999"
       (reference "J11") (unit 1) (value "USB_OTG") (footprint "CM4IO:USB_Micro-B_EDAC_UCON00686")
@@ -844,14 +838,8 @@
     (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/74063b40-ccdf-4f57-adcd-c3d3265a79f4"
       (reference "R28") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/00000000-0000-0000-0000-00005cff706a/a747e8fd-28f4-402b-969b-2c8e62ca6408"
-      (reference "TP3") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
-    )
-    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e5bd558"
-      (reference "TP5") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
-    )
     (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/de599665-7850-4c55-bc8c-a2522f3a347e"
-      (reference "U1") (unit 1) (value "MP8008") (footprint "")
+      (reference "U1") (unit 1) (value "MP8008") (footprint "bitcart:QFN-28_EP_4x5_Pitch0.5mm")
     )
     (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/7b5965d2-bf03-41e2-a8bf-84a2645b0b35"
       (reference "U2") (unit 1) (value "LTV-817S") (footprint "Package_DIP:SMDIP-4_W9.53mm")
@@ -884,7 +872,7 @@
       (reference "U11") (unit 1) (value "EMC2301-1-ACZL-TR") (footprint "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-00005ed4bb5b/96fd13f3-1405-4947-8846-18ebd1dd6304"
-      (reference "U12") (unit 1) (value "MDT320M01001") (footprint "")
+      (reference "U12") (unit 1) (value "MDT320M01001") (footprint "bitcart:MDT320M01001")
     )
   )
 )

@@ -1,4 +1,4 @@
-19835959200155458
+19821386753365302
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6175,6 +6175,13 @@ capacitor tantalum
 2
 Capacitor_Tantalum_SMD
 CP_EIA-7343-31_Kemet-D_Pad2.25x2.55mm_HandSolder
+Tantalum Capacitor SMD Kemet-D (7343-31 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
+capacitor tantalum
+0
+2
+2
+Capacitor_Tantalum_SMD
+CP_EIA-7343-31_Kemet-D_Pad2.25x2.55mm_HandSolder_flip
 Tantalum Capacitor SMD Kemet-D (7343-31 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
 capacitor tantalum
 0
@@ -59542,13 +59549,6 @@ Hamamatsu SiPM
 2
 2
 OptoDevice
-Kingbright_KPS-3227
-3.2mmx2.7mm, light sensor, https://www.kingbright.com/attachments/file/psearch/000/00/00/KPS-3227SP1C(Ver.16).pdf
-KPS-3227 Ambient Light Photo Sensor
-0
-4
-4
-OptoDevice
 Kingbright_KPS-5130
 http://www.kingbright.com/attachments/file/psearch/000/00/00/KPS-5130PD7C(Ver.14).pdf
 KPS-5130 photodiode RGB sensor
@@ -84559,3 +84559,24 @@ varistor SIOV
 0
 2
 2
+bitcart
+9774025151R
+
+
+0
+0
+0
+bitcart
+MDT320M01001
+
+
+0
+69
+69
+bitcart
+QFN-28_EP_4x5_Pitch0.5mm
+
+
+0
+29
+29
