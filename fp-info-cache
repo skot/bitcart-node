@@ -1,4 +1,4 @@
-19828023187598568
+19829678625233047
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -84601,6 +84601,13 @@ QFN-28_EP_4x5_Pitch0.5mm
 0
 29
 29
+bitcart
+SBR8U60P5-13
+
+
+0
+3
+3
 bitcart
 SI7430DP
 
