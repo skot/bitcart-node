@@ -709,6 +709,12 @@
     (path "/00000000-0000-0000-0000-00005e328d89/00000000-0000-0000-0000-00005d0dcf99"
       (reference "C23") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
+    (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/5ff48aec-b304-4cb5-8a94-c2359ef9d780"
+      (reference "C?") (unit 1) (value "1nF, 2000V") (footprint "")
+    )
+    (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/e29471ff-8d0c-4a59-866e-28b3e61fe634"
+      (reference "C?") (unit 1) (value "4.7uF") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e286645"
       (reference "D1") (unit 1) (value "LED Red") (footprint "LED_SMD:LED_0603_1608Metric")
     )
@@ -728,10 +734,16 @@
       (reference "D6") (unit 1) (value "SBR8U60P5-13") (footprint "")
     )
     (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/171ce3b4-eeec-4402-9e0f-cc2eb5948412"
-      (reference "D7") (unit 1) (value "DF01S") (footprint "")
+      (reference "D7") (unit 1) (value "DF01S") (footprint "bitcart:DF01S")
     )
-    (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/0c1f96ef-1e3c-4905-a8f3-d905f62afe99"
-      (reference "D8") (unit 1) (value "DF01S") (footprint "")
+    (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/21c934e0-64dd-4d8b-b7c9-8a792a28863f"
+      (reference "D8") (unit 1) (value "DF01S") (footprint "bitcart:DF01S")
+    )
+    (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/897a22a3-ba56-4205-909a-1b08c3532e38"
+      (reference "D?") (unit 1) (value "9.1V") (footprint "")
+    )
+    (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/bf226ebe-71e4-4518-8d05-2af965e56a70"
+      (reference "D?") (unit 1) (value "1N4148") (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005e3b2f75"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
@@ -755,7 +767,7 @@
       (reference "J17") (unit 1) (value "Molex 470531000") (footprint "Connector:FanPinHeader_1x04_P2.54mm_Vertical")
     )
     (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/e9a7d7da-72a1-453a-a7c0-0c75605c71ab"
-      (reference "L1") (unit 1) (value "0.1uH") (footprint "")
+      (reference "L1") (unit 1) (value "0.1uH") (footprint "bitcart:IND_744373240010")
     )
     (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005dc6d7d8"
       (reference "Module1") (unit 1) (value "ComputeModule4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
@@ -764,7 +776,10 @@
       (reference "Module1") (unit 2) (value "ComputeModule4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
     )
     (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/218857a1-5b8b-4552-9dd0-1cbac2901678"
-      (reference "Q1") (unit 1) (value "Si7450DP") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "Q1") (unit 1) (value "Si7430DP") (footprint "")
+    )
+    (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/cc763a6e-fc99-4d9a-a749-5baefd4b1726"
+      (reference "Q?") (unit 1) (value "MMBTA06LT1G") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e19768b"
       (reference "R1") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -838,6 +853,12 @@
     (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/74063b40-ccdf-4f57-adcd-c3d3265a79f4"
       (reference "R28") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
+    (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/06103bd7-2e25-43d4-90b9-5d88a50e1a18"
+      (reference "R?") (unit 1) (value "1k") (footprint "")
+    )
+    (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/3c0bdba5-4e99-4040-9fdb-37a0f2514dfa"
+      (reference "R?") (unit 1) (value "100k") (footprint "")
+    )
     (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/de599665-7850-4c55-bc8c-a2522f3a347e"
       (reference "U1") (unit 1) (value "MP8008") (footprint "bitcart:QFN-28_EP_4x5_Pitch0.5mm")
     )
@@ -845,7 +866,7 @@
       (reference "U2") (unit 1) (value "LTV-817S") (footprint "Package_DIP:SMDIP-4_W9.53mm")
     )
     (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/6ead6e23-6fd3-439e-bb5e-58464b25879f"
-      (reference "U3") (unit 1) (value "750310744") (footprint "")
+      (reference "U3") (unit 1) (value "750310744") (footprint "bitcart:750310744")
     )
     (path "/00000000-0000-0000-0000-00005e072e02/00000000-0000-0000-0000-00005eb07faa"
       (reference "U4") (unit 1) (value "TPD4EUSB30") (footprint "Package_SON:USON-10_2.5x1.0mm_P0.5mm")

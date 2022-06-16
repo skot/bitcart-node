@@ -1,4 +1,4 @@
-19821386753365302
+19826367791004260
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -84560,12 +84560,33 @@ varistor SIOV
 2
 2
 bitcart
+750310744
+
+
+0
+10
+10
+bitcart
 9774025151R
 
 
 0
 0
 0
+bitcart
+DF01S
+
+
+0
+4
+4
+bitcart
+IND_744373240010
+
+
+0
+2
+2
 bitcart
 MDT320M01001
 
