@@ -724,12 +724,6 @@
     (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/749c8515-a490-4da6-ba36-4700cb670058"
       (reference "D3") (unit 1) (value "SMAJ58A") (footprint "Diode_SMD:D_SMA")
     )
-    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e19548d"
-      (reference "D4") (unit 1) (value "LED Green") (footprint "LED_SMD:LED_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e286645"
-      (reference "D5") (unit 1) (value "LED Red") (footprint "LED_SMD:LED_0603_1608Metric")
-    )
     (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/514abd17-76a0-4495-af23-583019337f96"
       (reference "D6") (unit 1) (value "BAV21") (footprint "Diode_SMD:D_SOD-123F")
     )
@@ -744,6 +738,12 @@
     )
     (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/21c934e0-64dd-4d8b-b7c9-8a792a28863f"
       (reference "D13") (unit 1) (value "DF01S") (footprint "bitcart:DF01S")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e286645"
+      (reference "D20") (unit 1) (value "LED Red") (footprint "LED_SMD:LED_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e19548d"
+      (reference "D21") (unit 1) (value "LED Green") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005e3b2f75"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
@@ -796,12 +796,6 @@
     (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/7fed60e1-ea46-45b8-b2c5-bbc5c3001524"
       (reference "R4") (unit 1) (value "28.7") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e19768b"
-      (reference "R5") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e28664f"
-      (reference "R6") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
     (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/3c0bdba5-4e99-4040-9fdb-37a0f2514dfa"
       (reference "R7") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
@@ -829,15 +823,6 @@
     (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/731ba362-63d0-40d0-885d-027882e60a5b"
       (reference "R13-2") (unit 1) (value "20k") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
-    (path "/00000000-0000-0000-0000-00005e072e02/00000000-0000-0000-0000-00005d615d09"
-      (reference "R14") (unit 1) (value "2.2K 1%") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005e072e02/00000000-0000-0000-0000-00005d417c1b"
-      (reference "R15") (unit 1) (value "2.2K 1%") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005e328d89/00000000-0000-0000-0000-00005d0e61c8"
-      (reference "R16") (unit 1) (value "36K 1%") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
     (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/06103bd7-2e25-43d4-90b9-5d88a50e1a18"
       (reference "R18") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
@@ -861,6 +846,21 @@
     )
     (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/74063b40-ccdf-4f57-adcd-c3d3265a79f4"
       (reference "R28") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005e072e02/00000000-0000-0000-0000-00005d615d09"
+      (reference "R30") (unit 1) (value "2.2K 1%") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005e072e02/00000000-0000-0000-0000-00005d417c1b"
+      (reference "R31") (unit 1) (value "2.2K 1%") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005e328d89/00000000-0000-0000-0000-00005d0e61c8"
+      (reference "R32") (unit 1) (value "36K 1%") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e28664f"
+      (reference "R33") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e19768b"
+      (reference "R34") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/5ffb3b4b-7652-4af4-839a-2e6de4752496/6ead6e23-6fd3-439e-bb5e-58464b25879f"
       (reference "T1") (unit 1) (value "7491194912") (footprint "bitcart:7491194912")
