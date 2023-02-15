@@ -1,4 +1,6 @@
 ## The bitcart
+**This project is unfinished and on hold until the supply of CM4 8GB improves**
+
 This is a Raspberry Pi CM4 carrier board optimized for being a bitcoin node.
 
 It is heavily based on the official [Raspberry Pi CM4 Carrier Board](https://www.raspberrypi.com/products/compute-module-4-io-board/)
